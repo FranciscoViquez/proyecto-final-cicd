@@ -27,4 +27,4 @@ def test_suma_calculo(client):
 
     data = response.get_json()
 
-    assert data["resultado"] == 999
+    assert data["resultado"] == 25
